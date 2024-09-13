@@ -164,7 +164,121 @@ nav {
     text-align: center;
     padding: 5em 1em;
 }
-
+.jane{
+    width: 253px;
+    height: 81px;
+    top: 89px;
+    padding: 12px 20px 12px 20px;
+    gap: 17px;
+    position: relative;
+    top: -600px;
+    left: -100px;
+    border-radius: 19px;
+    background-color: #FFFFFF;
+}
+.courses{
+    width: 150px;
+    height: 78px;
+    padding: 22px 20px 22px 20px;
+    border-radius: 21px;
+    background-color: #FFFFFF;
+    position: relative;
+    top: -520px;
+    left: 480px;
+}
+.dedication{
+    width: 252px;
+    height: 110px;
+    padding: 22px 20px 22px 20px;
+    gap: 8px;
+    border-radius: 29px;
+    position: relative;
+    top: -300px;
+    left: 150px;
+    background-color: #FFFFFF;
+}
+.dedication-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 45px;
+}
+.ded-1{
+    height: 48px;
+    width: 48px;
+    border-radius: 40px;
+}
+.ded-2{
+    height: 48px;
+    width: 48px;
+    border-radius: 40px;
+    position: relative;
+    left: -10px;
+}
+.ded-3{
+    height: 48px;
+    width: 48px;
+    border-radius: 40px;
+    position: relative;
+    left: -20px;
+}
+.ded-4{
+    height: 48px;
+    width: 48px;
+    border-radius: 40px;
+    position: relative;
+    left: -30px;
+}
+.dedication p {
+    font-size: 12px;
+    color: #666680;
+    margin-top: 6px;
+}
+.likes{
+    width: 62px;
+    height: 44px;
+    border-radius: 32px;
+    background-color: #E8E8F6;
+    position: relative;
+    top: -70px;
+    left: 165px;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+}
+.likes p{
+    color: #925F01;
+    font-size: 14px;
+}
+.jane{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 25px;
+}
+.jane-img{
+    margin-top: 40px;
+}
+.jane-img img{
+    border-radius: 40px;
+}
+.cooper h5{
+    font-size: 14px;
+    color: #333333;
+}
+.cooper p{
+    font-size: 12px;
+    color: #666680;
+}
+.courses h5{
+    color: #925F01;
+    font-size: 18px;
+}
+.courses p{
+    color: #666680;
+    font-size: 12px;
+}
 /* Main Content */
 
 
