@@ -110,8 +110,14 @@ nav {
 .welcome .greeting{
     margin: 100px 0 0 100px;
 }
-.welcome .greeting h1{
-    margin-bottom: 30px;
+.welcome .greeting .h1 {
+    font-size: 50px;
+    font: bolder;
+    font-weight: 400;
+    text-align: left;
+}
+.welcome .greeting .h1 span{
+    color: #333333;
 }
 .welcome .greeting p {
     margin-bottom: 50px;
@@ -287,7 +293,7 @@ nav {
 .objective{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px;
     gap: 0px;
 }
@@ -706,7 +712,11 @@ header {
     color: #603F00;
     font-family: sans-serif;
     border-radius: 40px;
-    margin: 30px;
+    margin:50px 50px 100px 50px;
+    width: 358px;
+    height: 1250px;
+    padding: 32px 10px 53.09px 16px;
+    border-radius: 40px;
 }
 
 nav {
@@ -714,7 +724,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
 }
 
 .logo{
@@ -731,6 +741,7 @@ nav {
 }
 
 .nav-toggler {
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 30px;
@@ -792,7 +803,8 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 50px;
+    position: relative;
+    right: 60px;
 }
 .greeting{
     
@@ -812,34 +824,39 @@ nav {
     text-decoration: none;
     color: #FFFFFF;
 }
-.greeting .h1 {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: -0.02em;
+.welcome .greeting .h1 {
+    font-size: 50px;
+    font: bolder;
+    font-weight: 400;
     text-align: left;
 }
-.greeting p {
-    font-size: 20px;
+.welcome .greeting .h1 span{
+    color: #333333;
+}
+.welcome .greeting p {
+    font-size: 24px;
 }
 .container{
     background-color: #fce0c6;
     rotate: 4.37 deg;
     border-radius: 40px;
-    height: 334.9px;
-    width: 332px;
+    height: 250px;
+    width: 290px;
     margin: 50px 100px 0 50px;
+    position: relative;
+    left: 85px;
 }
 .container img{
     position: relative;
-    bottom: 50px;
-    width: 299.96px;
-    height: 274.72px;
+    bottom: 20px;
+    right: 10px;
+    width: 310.96px;
+    height: 300.72px;
     gap: 0px;
     opacity: 0px;
 }
 /* Hero Section */
-.jane{
+/* .jane{
     width: 253px;
     height: 81px;
     top: 89px;
@@ -850,112 +867,131 @@ nav {
     left: -100px;
     border-radius: 19px;
     background-color: #FFFFFF;
-    display: none;
-}
+} */
 .courses{
-    display: none;
-    width: 150px;
+    /* width: 150px;
     height: 78px;
     padding: 22px 20px 22px 20px;
     border-radius: 21px;
-    background-color: #FFFFFF;
-    position: relative;
     top: -520px;
     left: 480px;
+    display: none; */
+    width: 76.42px;
+    height: 38.36px;
+    padding: 10.68px 9.71px 10.68px 9.71px;
+    border-radius: 10.19px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 240px;
+    top: -270px;
 }
 .dedication{
-    display: none;
-    width: 252px;
+    /* width: 252px;
     height: 110px;
     padding: 22px 20px 22px 20px;
     gap: 8px;
     border-radius: 29px;
     position: relative;
     top: -300px;
-    left: 150px;
+    left: 150px; */
+    width: 122.32px;
+    height: 48.42px;
+    padding: 10.68px 9.71px 10.68px 9.71px;
+    gap: 3.88px;
+    border-radius: 14.08px;
+    border: 0.49px;
     background-color: #FFFFFF;
+    position: relative;
+    top: -150px;
+    left: 80px;
 }
 .dedication-img{
     display: flex;
     justify-content: center;
     flex-direction: row;
     position: relative;
-    top: 45px;
+    top: 15px;
+    left: 10px;
 }
-.ded-1{
-    height: 48px;
-    width: 48px;
+.dedication-img .ded-1{
+    height: 23px;
+    width: 23px;
     border-radius: 40px;
 }
-.ded-2{
-    height: 48px;
-    width: 48px;
+.dedication-img .ded-2{
+    height: 23px;
+    width: 23px;
     border-radius: 40px;
-    position: relative;
-    left: -10px;
 }
-.ded-3{
-    height: 48px;
-    width: 48px;
+.dedication-img .ded-3{
+    height: 23px;
+    width: 23px;
     border-radius: 40px;
-    position: relative;
-    left: -20px;
 }
-.ded-4{
-    height: 48px;
-    width: 48px;
+.dedication-img .ded-4{
+    height: 23px;
+    width: 23px;
     border-radius: 40px;
-    position: relative;
-    left: -30px;
 }
 .dedication p {
-    font-size: 12px;
+    font-size: 5.82px;
     color: #666680;
-    margin-top: 6px;
+    margin-top: 0px;
 }
 .likes{
-    width: 62px;
-    height: 44px;
+    width: 32px;
+    height: 24px;
     border-radius: 32px;
     background-color: #E8E8F6;
     position: relative;
-    top: -70px;
-    left: 165px;
+    top: -32px;
+    left: 70px;
     display: flex;
     justify-content: center;
     padding: 7px;
 }
 .likes p{
     color: #925F01;
-    font-size: 14px;
+    font-size: 10px;
 }
 .jane{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
-    padding: 25px;
+    width: 122.96px;
+    height: 39.32px;
+    padding: 5.82px 9.71px 5.82px 9.71px;
+    gap: 1.25px;
+    border-radius: 9.22px;
+    background-color: #FFFFFF;
+    position: relative;
+    left: -30px;
+    top: -270px;
 }
 .jane-img{
     margin-top: 40px;
 }
 .jane-img img{
-    border-radius: 40px;
+    border-radius: 100px;
+    width: 21.59px;
+    height: 21.12px;
 }
 .cooper h5{
-    font-size: 14px;
+    font-size: 6.8px;
     color: #333333;
 }
+
 .cooper p{
-    font-size: 12px;
+    font-size: 5.82px;
     color: #666680;
 }
 .courses h5{
     color: #925F01;
-    font-size: 18px;
+    font-size: 8.74px;
 }
 .courses p{
     color: #666680;
-    font-size: 12px;
+    font-size: 5.82px;
 }
 /* Main Content */
 
