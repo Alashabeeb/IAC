@@ -693,7 +693,7 @@ footer {
     list-style: none;
 }
 /* Responsive Styles */
-@media (max-width: 960px) {
+@media (max-width: 550px) {
     /* Basic Reset */
 * {
     margin: 0;
@@ -1026,7 +1026,7 @@ nav {
 .vision{
     width: 342px;
     height: 264px;
-    padding: 24px;
+    padding: 30px;
     border-radius: 16px;
 }
 .vision h1{
@@ -1187,14 +1187,14 @@ nav {
     padding: 36px 24px 36px 24px;
     border-radius: 40px;
 }
-.admission h5{
+.admission h6{
     color: #FFFFFF;
     font-size: 20px;
     margin-bottom: 20px;
 }
 .admission p{
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 15px;
 }
 /* .admission span{
     margin-left: 16px;
@@ -1209,7 +1209,7 @@ nav {
 }
 .apply h5{
     color: #333333;
-    font-size: 16px;
+    font-size: 14px;
 }
 /* Moment At IAC Section */
 .moment-head{
