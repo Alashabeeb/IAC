@@ -4,17 +4,273 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Independence Academy</title>
-    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Styles/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="m-5 p-3">
-        <nav class="navbar navbar-expand-lg navbar-light p-3" >
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                    <div class="d-flex gap-3">
+              <a class="navbar-brand" href="#"><img src="Images/logo.png" class="img-responsive" alt="Logo">Independence Academy</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div class="container p-3 mt-5">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <h1 class="fs-1 fw-bolder"><span style="color: #333333 !important;"> Welcome to </span> Independence Academy, Ibadan</h1>
+                    <p class="fs-3">We are dedicated to nurturing the next generation of leaders grounded in Islamic values, academic excellence, and moral integrity.</p>
+                    <a href="about.html" class="btn btn-primary my-3 contact-btn">
+                        Contact Us
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="Images/img1.png" alt="Image" class="img-fluid">
+                </div>  
+            </div>
+          </div>
+    </section>
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mission text-dark">
+                    <h1 class="fw-bolder">Mission</h1>
+                    <p class="fw-bold">
+                        To provide first class international Primary and secondary Education for the overall development of the teeming Muslim children at an affordable cost. The Academy assures you of a unique standard and balanced education based on the tarbiyah and tasfiyah model.
+                    </p>
+                </div>
+                <div class="col-md-4 vision text-dark">
+                    <h1 class="fw-bolder">Vision</h1>
+                    <p class="fw-bold">
+                        To Impact – with Allah’s support- the knowledge skills and positive attitude necessary for children to grow into life with Islamic virtues and excellence.
+                    </p>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="text-start mb-5"></div>
+                <h6 style="color:#B0B0C0;">WHY learn at Independence Academy?</h6>
+                <h2 class="fw-bolder">Our values</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/academics.png" class="card-img-top rounded-cicle value" alt="Academics">
+                        <div class="card-body">
+                            <h3 class="card-title fw-bolder">Academics</h3>
+                            <p class="card-text">
+                                We offer a comprehensive curriculum with a focus on science, commercial and arts, catering to students from kindergarten to high school.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/facility.png" class="card-img-top value" alt="Facilities and Resources">
+                        <div class="card-body">
+                            <h3 class="card-title fw-bolder">Facilities and Resources</h3>
+                            <p class="card-text">
+                                The campus features modern classrooms, state-of-the-art laboratories, and a well-equipped library. The school also boasts excellent technology infrastructure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/extra.png" class="card-img-top value" alt="Extracurricular Activities">
+                        <div class="card-body">
+                            <h3 class="card-title fw-bolder">Extracurricular Activities</h3>
+                            <p class="card-text">
+                                Students can engage in various sports teams, clubs, and organizations, including quiz and debate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/staff.png" class="card-img-top value" alt="Faculty and Staff">
+                        <div class="card-body">
+                            <h3 class="card-title fw-bolder">Faculty and Staff</h3>
+                            <p class="card-text">
+                                The school has a dedicated team of qualified teachers and staff, with a favourable teacher-student ratio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/student.png" class="card-img-top value" alt="Students Life">
+                        <div class="card-body">
+                            <h3 class="card-title fw-bolder">Students Life</h3>
+                            <p class="card-text">
+                                The student body is diverse, with opportunities for leadership and student organizations. Support services include counseling and academic support.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Images/Award.png" class="card-img-top value" alt="Achievements & Awards">
+                        <div class="card-body">
+                            <h3 class="card-title fw-bolder">Achievements & Awards</h3>
+                            <p class="card-text">
+                                The school has achieved excellent academic results and won several awards in sports and competitions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container p-3">
+            <div class="d-flex justify-content-between"></div>
+                <div class="text-start mb-5">
+                    <h6 style="color:#B0B0C0;">Key Persons</h6>
+                    <h2>Meet our Esteemed Faculties</h2>
+                </div>
+                <div class="d-flex d-sm-none">
+                    <div class="left-arrow me-3 ">
+                        <a href=""><img src="Images/left-arrow.png" alt="#"></a>
+                    </div>
+                    <div class="right-arrow">
+                        <a href=""><img src="Images/right.png" alt="3"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="Images/man1.png" class="person" alt="Jimmy Cooper">
+                    <h4>Jimmy Cooper</h4>
+                    <p>Proprietor</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="Images/man2.png" class="person" alt="Christian Howard">
+                    <h4>Christian Howard</h4>
+                    <p>Principal, Primary Section</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="Images/lady.png" class="person" alt="Sandra Wilson">
+                    <h4>Sandra Wilson</h4>
+                    <p>Head Teacher, Primary Section</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independence Academy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="p-1">
+        <nav class="navbar navbar-expand-lg navbar-light" >
+            <div class="container">
+                    <div class="d-flex gap-1">
                         <img src="Images/logo.png" class="img-responsive" alt="logo" height="70px">
                         <p class="fw-bolder mt-4">Independence Academy</p>
                     </div>
@@ -35,31 +291,24 @@
                 </div>
             </div>
         </nav>
-        <section class="">
+        <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-5">
                         <h1 class="greeting mb-3 mt-5 "><span style="color: #333333;"> Welcome to </span> Independence Academy, Ibadan</h1>
                         <p class="greeting-body mb-3">We are dedicated to nurturing the next generation of leaders grounded in Islamic values, academic excellence, and moral integrity.</p>
                         <a href="#" class="btn btn-light text-light mb-5 greeting-btn">Contact Us</a>
                     </div>
                     <div class="col-md-6">
                         <img src="Images/img1.png" alt="Image" class="img-fluid">
-                        <!-- <div class="jane">
-                            <div class="jane-img"><img src="Images/M.png" alt="#"></div>
-                            <div class="cooper">
-                                <h5>Jane Cooper</h5>
-                                <p>I loved the Italian course!</p>
-                            </div>
-                        </div> -->
                     </div>
                 </div>
                 
             </div>
         </section>
     </header>
-    <main class="m-5">
-       <section class="container p-3">
+    <main>
+       <section class="container-fluid p-3">
             <div class="row">
                 <div class="col-md-6 mission m-4 p-4 text-light">
                     <h1 class="fw-bolder">Mission</h1>
@@ -76,7 +325,7 @@
             </div>
        </section>
 
-       <section class="container my-5 p-3">
+       <section class="container-fluid my-5 p-3">
             <div class="text-start mb-5">
                 <h6 style="color:#B0B0C0;">WHY learn at Independence Academy?</h6>
                 <h2 class="fw-bolder">Our values</h2>
@@ -398,4 +647,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-</html>
+</html> -->

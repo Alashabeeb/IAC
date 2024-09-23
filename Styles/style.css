@@ -1,4 +1,4 @@
-/* Basic Reset */
+/* 
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@ body {
     font-family: Axiforma, sans-serif;
 }
 
-/* Header Styles */
 header {
     background-color: #FFF2DB;
     color: #603F00;
@@ -29,37 +28,7 @@ header {
     border-radius: 40px;
     background-color: #925F01 !important;
 }
-/* .jane{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 25px;
-    width: 253px;
-    height: 81px;
-    top: 89px;
-    padding: 12px 20px 12px 20px;
-    gap: 17px;
-    position: relative;
-    top: -600px;
-    left: -100px;
-    border-radius: 19px;
-    background-color: #FFFFFF;
-}
-.jane-img{
-    margin-top: 40px;
-}
-.jane-img img{
-    border-radius: 40px;
-}
-.cooper h5{
-    font-size: 14px;
-    color: #333333;
-}
-.cooper p{
-    font-size: 12px;
-    color: #666680;
-} */
-/* Mission */
+
 .mission{
     background-color: #925F01;
     border-radius: 16px;
@@ -72,7 +41,6 @@ header {
 .person{
     border-radius: 60px;
 }
-/* Card Styles */
 .card {
     border: none;
     background: none;
@@ -112,7 +80,6 @@ header {
     border-radius: 40px;
     background-color: #925F01;
 }
-/* Section Padding */
 .container {
     padding: 50px 0;
 }
@@ -124,7 +91,6 @@ header {
     background-color: #408BD1 !important;
     border-radius: 40px;
 }
-/* Footer Styles */
 footer {
     background-color: #FFF2DB;
     color: #603F00;
@@ -153,4 +119,4 @@ footer ul li {
     border-radius: 50px;
     border: 1px #E8E8F6 solid;
     padding: 5px 5px 5px 9px;
-}
+} */
