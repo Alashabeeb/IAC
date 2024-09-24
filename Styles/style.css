@@ -3,12 +3,6 @@
         display: none;
     }
 }
-/* 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: Axiforma, sans-serif;
@@ -104,17 +98,17 @@ footer {
     margin: 20px;
 }
 
-footer ul {
+.footer ul {
     list-style: none;
     padding: 0;
 }
 
-footer h5 {
+.footer h5 {
     font-size: 18px;
     color: #603F00;
 }
 
-footer ul li {
+.footer ul li {
     color: #837966;
     font-size: 14px;
 }
@@ -124,4 +118,4 @@ footer ul li {
     border-radius: 50px;
     border: 1px #E8E8F6 solid;
     padding: 5px 5px 5px 9px;
-} */
+}
